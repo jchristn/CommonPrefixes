@@ -1,4 +1,4 @@
-![alt tag](https://raw.githubusercontent.com/jchristn/CommonPrefixes/main/assets/icon.png)
+![alt tag](https://github.com/jchristn/CommonPrefixes/raw/main/Assets/icon.png)
 
 # CommonPrefixes
 
