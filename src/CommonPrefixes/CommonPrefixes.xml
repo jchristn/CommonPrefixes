@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CommonPrefixes</name>
+    </assembly>
+    <members>
+        <member name="T:CommonPrefixes.PrefixesFinder">
+            <summary>
+            Static class for finding prefixes within a list of strings using a given delimiter.
+            </summary>
+        </member>
+        <member name="M:CommonPrefixes.PrefixesFinder.Find(System.Collections.Generic.List{System.String},System.Char)">
+            <summary>
+            Generate a list of common prefixes found within a supplied list of strings and a given delimiter character.
+            </summary>
+            <param name="vals">List of strings.</param>
+            <param name="delimiter">Delimiter character.</param>
+            <returns>List of strings.</returns>
+        </member>
+    </members>
+</doc>

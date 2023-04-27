@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;netstandard2.1;netcoreapp3.1;net461;net48;net6.0;net7.0</TargetFrameworks>
+		<ApplicationIcon>icon.ico</ApplicationIcon>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<DocumentationFile>CommonPrefixes.xml</DocumentationFile>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageId>CommonPrefixes</PackageId>
+		<Title>CommonPrefixes</Title>
+		<Authors>Joel Christner</Authors>
+		<Description>CommonPrefixes is a simple static library that evalutes a list of strings and returns a list of strings representing the common prefixes found amongst list members based on a user-specified delimiter.</Description>
+		<Copyright>(c)2023 Joel Christner</Copyright>
+		<PackageProjectUrl>https://github.com/jchristn/commonprefixes</PackageProjectUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<RepositoryUrl>https://github.com/jchristn/commonprefixes</RepositoryUrl>
+		<RepositoryType>github</RepositoryType>
+		<PackageTags>common prefixes string similarity</PackageTags>
+		<PackageReleaseNotes>Initial release</PackageReleaseNotes>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\Assets\icon.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="CommonPrefixes.xml">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+</Project>
